@@ -1,0 +1,25 @@
+{
+  "name": "mongo-node-bench",
+  "version": "0.0.1",
+  "description": "Mongo Node js Benchmarck",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/suizman/mongo-node-bench.git"
+  },
+  "dependencies": {
+    "yargs": "~5.0.0",	  
+    "node-gyp": "3.4.0",	  
+    "kerberos": "0.0.21",
+    "mongodb": "~2.0"
+  },
+  "author": "Martin Evgeniev",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/suizman/mongo-node-bench/issues"
+  },
+  "scripts": {
+    "start": "node --max-old-space-size=$NODE_MXM app.js",
+    "jshint": "jshint ."
+  }
+}
