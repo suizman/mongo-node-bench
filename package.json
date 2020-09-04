@@ -8,10 +8,10 @@
     "url": "git://github.com/suizman/mongo-node-bench.git"
   },
   "dependencies": {
-    "yargs": "~5.0.0",	  
-    "node-gyp": "3.4.0",	  
-    "kerberos": "0.0.21",
-    "mongodb": "~2.0"
+    "kerberos": "^1.1.3",
+    "mongodb": "3.1.13",
+    "node-gyp": "3.4.0",
+    "yargs": "^15.4.1"
   },
   "author": "Martin Evgeniev",
   "license": "Apache 2.0",
